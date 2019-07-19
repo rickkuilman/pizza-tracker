@@ -1,6 +1,6 @@
 <template>
-    <div class="container">
-        Hi!
+    <div>
+        <h1 class="text-6xl text-yellow-500">Following your pizza</h1>
     </div>
 </template>
 
