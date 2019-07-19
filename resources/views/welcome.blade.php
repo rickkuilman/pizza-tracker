@@ -15,11 +15,11 @@
 </head>
 <body class="font-serif">
 <div id="app" class="flex justify-between min-h-screen">
-    <div class="w-1/2 justify-center bg-green-500 flex flex-col text-center justify-around">
-        <h1 class="text-7xl text-green-800">Pizza Tracker</h1>
+    <div class="w-1/2 justify-center bg-teal-500 flex flex-col text-center justify-around">
+        <h1 class="text-7xl text-teal-800">Pizza Tracker</h1>
         <img src="{{ asset('/assets/pizza.svg') }}" class="w-1/2 mx-auto">
     </div>
-    <div class="w-1/2 p-3 bg-green-600 text-dark flex flex-col text-center justify-around">
+    <div class="w-1/2 p-3 bg-teal-600 text-dark flex flex-col text-center justify-around">
         <pizza-tracker-component></pizza-tracker-component>
     </div>
 
