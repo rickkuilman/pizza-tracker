@@ -13,18 +13,21 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
 </head>
-<body class="font-serif">
-<div id="app" class="flex justify-between min-h-screen">
-    <div class="w-1/2 justify-center bg-teal-500 flex flex-col text-center justify-around">
-        <h1 class="text-7xl text-teal-800">Pizza Tracker</h1>
-        <img src="{{ asset('/assets/pizza.svg') }}" class="w-1/2 mx-auto">
-    </div>
-    <div class="w-1/2 p-3 bg-teal-600 text-dark flex flex-col text-center justify-around">
-        <pizza-tracker-component></pizza-tracker-component>
+<body>
+<div id="app" class="flex flex-col justify-between min-h-screen">
+
+    <pizza-tracker-component></pizza-tracker-component>
+
+    <div class="flex flex-1 bg-green-500">
+        <div class="flex flex-col w-1/2 justify-center text-center justify-around">
+            <img src="{{ asset('/assets/pizza.svg') }}" class="w-1/2 mx-auto">
+        </div>
+        <div class="flex flex-col w-1/2 p-3 text-center">
+            <h1 class="text-2xl">Order details</h1>
+        </div>
     </div>
 
 </div>
 <script src="{{ asset('js/app.js') }}"></script>
-<link href="https://fonts.googleapis.com/css?family=Leckerli+One&display=swap" rel="stylesheet">
 </body>
 </html>
