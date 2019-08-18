@@ -38,7 +38,7 @@ module.exports = {
         900: '#742a2a',
       },
       orange: {
-        100: '#fffaf0',
+        100: '#fbf0e4',
         200: '#feebc8',
         300: '#fbd38d',
         400: '#f6ad55',
@@ -235,7 +235,7 @@ module.exports = {
         '"Noto Color Emoji"',
       ],
       serif: [
-        'Leckerli\\ One',
+        'Fjalla\\ One',
         'Georgia',
         'Cambria',
         '"Times New Roman"',
