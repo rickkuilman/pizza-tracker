@@ -57,7 +57,7 @@
 
         <div class="flex-1">
 
-            <h1 class="text-center w-full my-2 uppercase text-xl">step 3</h1>
+            <h1 class="text-center w-full my-2 uppercase text-xl">step 4</h1>
 
             <div class="w-10 h-10 bg-white mx-auto rounded-full text-lg text-gray-500 flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
